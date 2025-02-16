@@ -1,27 +1,80 @@
-# BookmonkeyClient
+<h1 align="center">Angular & TypeScript Intensiv-Schulung</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
+<p align="center">
+  <img alt="workshops-de-logo-blue" src="docs/logo-workshops-de.png" width="120">
+  <br>
+  <em>Der beste Start in Angular in nur 3 Tagen.</em>
+  <br>
+</p>
 
-## Development server
+<p align="center">
+  <a href="https://workshops.de/seminare-schulungen-kurse/angular-typescript" target="_blank"><strong>workshops.de</strong></a>
+  <br>
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Lokale Entwicklung
 
-## Code scaffolding
+| Befehl          | Beschreibung                                                |
+|-----------------|-------------------------------------------------------------|
+| `npm install`   | Installiert die Pakete zum Entwickeln der Angular App       |
+| `npm start`     | Startet die Angular App                                     |
+| `npm test`      | Führt Tests der Angular App aus                             |
+| `npm run build` | Kompiliert die Angular App im Produktionsmodus              |
+| `npm run lint`  | Führt eine statische Code-Analyse mit [eslint][eslint] aus. |
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Die API
 
-## Build
+| Befehl               | Beschreibung                                          |
+|----------------------|-------------------------------------------------------|
+| `npx bookmonkey-api` | Installiert und startet die Http API "Bookmonkey API" |
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Die API liefert Fake-Daten, die du in deiner Angular Anwendung nutzen kannst.
 
-## Running unit tests
+> [!NOTE]
+> Die API startet unter http://localhost:4730.
+> Wenn du diese Seite öffnest findest du eine Dokumentation aller Endpunkte. 🚀
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Weitere Resourcen
+> Von https://github.com/angular/angular
 
-## Running end-to-end tests
+### Quickstart
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+[Get started in 5 minutes][quickstart].
 
-## Further help
+### Documentation
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Get started with Angular, learn the fundamentals and explore advanced topics on our documentation website.
+
+- [Getting Started][quickstart]
+- [Documentation][documentation]
+- [Angular Command Line (CLI)][cli]
+- [Architecture][architecture]
+- [Components and Templates][componentstemplates]
+- [Forms][forms]
+- [Angular Material][angularmaterial]
+- [API][api]
+
+#### Advanced
+
+- [Angular Elements][angularelements]
+- [Server Side Rendering][ssr]
+- [Schematics][schematics]
+- [Lazy Loading][lazyloading]
+
+[eslint]: https://eslint.org/
+[quickstart]: https://angular.dev/tutorials/learn-angular
+[ng]: https://angular.dev
+[documentation]: https://angular.dev/overview
+[angularmaterial]: https://material.angular.io/
+[cli]: https://angular.dev/tools/cli
+[architecture]: https://angular.dev/essentials
+[componentstemplates]: https://angular.dev/tutorials/learn-angular/1-components-in-angular
+[forms]: https://angular.dev/tutorials/learn-angular/15-forms
+[api]: https://angular.dev/api
+[angularelements]: https://angular.dev/guide/elements
+[ssr]: https://angular.dev/guide/ssr
+[schematics]: https://angular.dev/tools/cli/schematics
+[lazyloading]: https://angular.dev/guide/ngmodules/lazy-loading
+
+
+
