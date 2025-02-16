@@ -32,7 +32,7 @@ Die API liefert Fake-Daten, die du in deiner Angular Anwendung nutzen kannst.
 
 > [!NOTE]
 > Die API startet unter http://localhost:4730.
-> Wenn du diese Seite öffnest findest du eine Dokumentation aller Endpunkte. 🚀
+> Wenn du diese Seite öffnest, findest du eine Dokumentation aller Endpunkte. 🚀
 
 ## Weitere Resourcen
 > Von https://github.com/angular/angular
