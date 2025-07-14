@@ -1,9 +1,9 @@
-<h1 align="center">Angular & TypeScript Intensiv-Schulung</h1>
+<h1 align="center">Angular & TypeScript Intensive Training</h1>
 
 <p align="center">
   <img alt="workshops-de-logo-blue" src="docs/logo-workshops-de.png" width="120">
   <br>
-  <em>Der beste Start in Angular in nur 3 Tagen.</em>
+  <em>The best way to get started with Angular</em>
   <br>
 </p>
 
@@ -12,30 +12,31 @@
   <br>
 </p>
 
-## Lokale Entwicklung
+## Local Development
 
-| Befehl          | Beschreibung                                                |
-|-----------------|-------------------------------------------------------------|
-| `npm install`   | Installiert die Pakete zum Entwickeln der Angular App       |
-| `npm start`     | Startet die Angular App                                     |
-| `npm test`      | Führt Tests der Angular App aus                             |
-| `npm run build` | Kompiliert die Angular App im Produktionsmodus              |
-| `npm run lint`  | Führt eine statische Code-Analyse mit [eslint][eslint] aus. |
+| Command         | Description                                       |
+| --------------- | ------------------------------------------------- |
+| `npm install`   | Installs the packages to develop the Angular app  |
+| `npm start`     | Starts the Angular app                            |
+| `npm test`      | Runs tests for the Angular app                    |
+| `npm run build` | Compiles the Angular app in production mode       |
+| `npm run lint`  | Runs static code analysis using [eslint][eslint]. |
 
-## Die API
+## The API
 
-| Befehl               | Beschreibung                                          |
-|----------------------|-------------------------------------------------------|
-| `npx bookmonkey-api` | Installiert und startet die Http API "Bookmonkey API" |
+| Command              | Description                                       |
+| -------------------- | ------------------------------------------------- |
+| `npx bookmonkey-api` | Installs and starts the HTTP API "Bookmonkey API" |
 
-Die API liefert Fake-Daten, die du in deiner Angular Anwendung nutzen kannst.
+The API provides fake data that you can use in your Angular application.
 
 > [!NOTE]
-> Die API startet unter http://localhost:4730.
-> Wenn du diese Seite öffnest, findest du eine Dokumentation aller Endpunkte. 🚀
+> The API starts at http://localhost:4730.
+> When you open this page, you’ll find documentation for all endpoints. 🚀
 
-## Weitere Ressourcen
-> Von https://github.com/angular/angular
+## Additional Resources
+
+> From https://github.com/angular/angular
 
 ### Quickstart
 
@@ -43,7 +44,7 @@ Die API liefert Fake-Daten, die du in deiner Angular Anwendung nutzen kannst.
 
 ### Documentation
 
-Get started with Angular, learn the fundamentals and explore advanced topics on our documentation website.
+Get started with Angular, learn the fundamentals, and explore advanced topics on our documentation website.
 
 - [Getting Started][quickstart]
 - [Documentation][documentation]
@@ -75,6 +76,3 @@ Get started with Angular, learn the fundamentals and explore advanced topics on 
 [ssr]: https://angular.dev/guide/ssr
 [schematics]: https://angular.dev/tools/cli/schematics
 [lazyloading]: https://angular.dev/guide/ngmodules/lazy-loading
-
-
-
