@@ -34,6 +34,14 @@ The API provides fake data that you can use in your Angular application.
 > The API starts at http://localhost:4730.
 > When you open this page, you’ll find documentation for all endpoints. 🚀
 
+## VS Code
+
+If you are using [VS Code](https://code.visualstudio.com/) as you editor of choice, you might see a popup after opening this repository.
+We added a few plugin recommendations to simplify writing code during the workshop:
+
+1. Angular Language Service - Adds better syntax-highlighting & automatic refactorings
+1. Prettier - Formats your code automatically in the same way across your project.
+
 ## Additional Resources
 
 > From https://github.com/angular/angular
