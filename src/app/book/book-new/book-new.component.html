@@ -1,0 +1,54 @@
+<h2>New</h2>
+
+<form [formGroup]="form" (ngSubmit)="submit()">
+  <label class="form-field">
+    <span>ISBN</span>
+    <input formControlName="isbn" />
+    @if (form.controls.isbn.dirty && form.controls.isbn.hasError('required')) {
+      <small>Please insert an Author.</small>
+    }
+  </label>
+
+  <label class="form-field">
+    <span>Title</span>
+    <input formControlName="title" />
+    @if (
+      form.controls.title.dirty && form.controls.title.hasError('required')
+    ) {
+      <small>Please insert a title.</small>
+    }
+  </label>
+
+  <label class="form-field">
+    <span>Subtitle</span>
+    <input formControlName="subtitle" />
+  </label>
+
+  <ng-container formArrayName="authors">
+    @for (author of authors.controls; track author; let index = $index) {
+      <label class="form-field">
+        <span>Author</span>
+        <input [formControlName]="index" />
+
+        @if (author.dirty) {
+          @if (author.hasError('required')) {
+            <small>Please insert an Author.</small>
+          } @else if (author.hasError('invalidAuthor')) {
+            <small>Name must not contain digits</small>
+          }
+        }
+      </label>
+      <button (click)="deleteAuthor(index)">Remove Author</button>
+    }
+  </ng-container>
+  <button type="button" (click)="addAuthor()">Author hinzufügen</button>
+
+  <label class="form-field">
+    <span>Abstract</span>
+    <input formControlName="abstract" />
+  </label>
+
+  <div class="form-actions">
+    <button type="submit" [disabled]="form.invalid">Save</button>
+  </div>
+</form>
